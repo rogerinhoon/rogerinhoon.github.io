@@ -12514,7 +12514,7 @@ textarea.form-control-lg {
 .dark-mode .accordion .accordion-item,
 .dark-mode .accordion .accordion-button {
   color: #F5F2F2;
-  background-color: rgba(48, 44, 44, 0.95);
+  background-color: rgba(18, 18, 21, 0.9);
 }
 .dark-mode .accordion .accordion-button::after {
   filter: invert(1);
@@ -13160,6 +13160,7 @@ body::after {
 }
 .accordion .accordion-button:focus {
   box-shadow: none;
+  background-color: #fff;
 }
 .accordion .accordion-item:not(:first-of-type) {
   border-top: 1px solid;
