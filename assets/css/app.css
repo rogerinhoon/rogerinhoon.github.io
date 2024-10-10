@@ -13039,6 +13039,12 @@ body::after {
   flex: 0 0 auto;
   width: 20%;
 }
+@media (max-width: 1024px) {
+  .col-lg-20 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
 
 .bg-blue-light {
   background-color: #15B5FF !important;

@@ -28,6 +28,11 @@ body {
 .col-lg-20 {
     flex: 0 0 auto;
     width: 20%;
+
+    @media (max-width: 1024px) {
+        width: 50%;
+        margin-bottom: 20px;
+    }
 }
 
 .bg-blue-light {
