@@ -1,0 +1,236 @@
+.light-mode {
+    background-color: rgba($color: $beige-light, $alpha: 1);
+
+    .header-site {
+        background-color: rgba($color: $black, $alpha: 0.95);
+
+        .logo-custom {
+            color: $beige-light;
+        }
+
+        .link-header {
+            color: $beige-light;
+        }
+    }
+
+    .btn-icon-header {
+        background-color: $beige-light;
+
+        .dark {
+            display: none;
+        }
+    }
+
+    .btns {
+        color: $gray-dark;
+        background-color: $beige-light;
+    }
+
+    .btn-close-mobile {
+        svg {
+            path {
+                fill: $beige-light;
+            }
+        }
+    }
+
+    .form-seach-header {
+        input {
+            color: $gray-dark;
+            border: 2px solid $beige-light;
+            background-color: $beige-light;
+        }
+    }
+
+    .offcanvas {
+        background-color: $gray-dark;
+    }
+
+    .header-title-1 {
+        border-bottom: 1px solid #B0B0B0;
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $blue-light;
+            border: 1px solid $blue;
+
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+
+    .card-em-2 {
+        border-color: $gray-dark;
+        background-color: $white;
+
+        figure {
+            border-color: $gray-dark;
+        }
+
+        .price {
+            color: $gray-dark;
+        }
+    }
+
+    .card-em-3 {
+        border: 1px solid $gray-dark;
+        background-color: $white;
+    }
+
+    .footer-site {
+        color: $white;
+        background-color: rgba($color: $black, $alpha: 0.95);
+    }
+}
+
+.dark-mode {
+    background-color: rgba($color: $black, $alpha: 0.95);
+
+    .header-site {
+        background-color: rgba($color: $beige-light, $alpha: 0.95);
+
+        .logo-custom {
+            color: #000000;
+        }
+
+        .link-header {
+            color: #000000;
+        }
+    }
+
+    .btn-icon-header {
+        background-color: $black;
+
+        .light {
+            display: none;
+        }
+
+        svg {
+            path {
+                fill: $beige-light;
+            }
+        }
+    }
+
+    .btns {
+        color: $beige-light;
+        background-color: $black;
+    }
+
+    .form-seach-header {
+        input {
+            color: $beige-light;
+            border: 2px solid $black;
+            background-color: $black;
+        }
+    }
+
+    .offcanvas {
+        background-color: $beige-light;
+    }
+
+    .main-site {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            color: $beige-light;
+        }
+    }
+
+    .header-title-1 {
+        border-bottom: 1px solid #B0B0B0;
+    }
+
+    .dropdown-menu {
+        background-color: $gray-dark;
+        box-shadow: 0 3px 5px rgba($color: $beige-light, $alpha: 0.25);
+    }
+
+    .dropdown-menu-scroll {
+        p {
+            color: $beige-light;
+        }
+
+        img {
+            filter: invert(2);
+        }
+    }
+
+    .btn-see-all {
+        color: $beige-light;
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $blue;
+            border: 1px solid $blue-light;
+
+            &:hover {
+                background-color: $blue-light;
+            }
+        }
+    }
+
+    .card-em-2 {
+        border-color: $white;
+        background-color: $gray-dark;
+
+        figure {
+            border-color: $white;
+        }
+
+        .price {
+            color: $beige-light;
+        }
+    }
+
+    .footer-site {
+        color: $white;
+        background-color: rgba($color: $black, $alpha: 0.95);
+    }
+
+    .card-em-3 {
+        border: 1px solid $beige-light;
+        background-color: rgba($color: $black, $alpha: 0.9);
+    }
+
+    .box-amount {
+        .amount {
+            color: $beige-light;
+        }
+    }
+
+    .rating-stars-em {
+        i {
+            color: $beige-light;
+        }
+    }
+
+    .border-right-1 {
+        &::after {
+            background-color: $beige-light;
+        }
+    }
+
+    .accordion {
+
+        .accordion-item,
+        .accordion-button {
+            color: $beige-light;
+            background-color: rgba($color: $gray-dark, $alpha: 0.95);
+        }
+
+        .accordion-button {
+            &::after {
+                filter: invert(1);
+            }
+        }
+    }
+}

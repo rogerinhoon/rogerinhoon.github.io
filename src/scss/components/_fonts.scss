@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+    font-family: 'cubanoregular';
+    src: url('/assets/fonts/cubano-webfont.woff2') format('woff2'),
+        url('/assets/fonts/cubano-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.f-cubano {
+    font-family: 'cubanoregular';
+}
+
+.text-blue-light {
+    color: $blue-light;
+}
+
+.text-success {
+    color: --bs-success;
+}
+
+.text-danger {
+    color: --bs-danger;
+}
+
+.text-red {
+    color: $red-light !important;
+}
+
+.text-green {
+    color: $green-light !important;
+}
+
+.f-w-300 {
+    font-weight: 300;
+}
+p {
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+@media (min-width: 992px) {
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 42px;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+
+    .fs-20 {
+        font-size: 20px;
+    }
+
+    .fs-22 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 991px) {
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .fs-20 {
+        font-size: 16px;
+    }
+
+    .fs-22 {
+        font-size: 19px;
+    }
+}
