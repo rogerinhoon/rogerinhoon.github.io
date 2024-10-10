@@ -12519,6 +12519,10 @@ textarea.form-control-lg {
 .dark-mode .accordion .accordion-button::after {
   filter: invert(1);
 }
+.dark-mode .accordion .accordion-button:focus {
+  box-shadow: none;
+  background-color: rgba(18, 18, 21, 0.9);
+}
 
 .btn-icon-header {
   display: inline-block;
